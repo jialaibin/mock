@@ -1,0 +1,36 @@
+{
+  "name": "mock",
+  "version": "0.0.3",
+  "description": "mock center",
+  "main": "src/mock.js",
+  "scripts": {
+    "test": "istanbul cover -v --print both -- vows --spec test/biz-mock-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jialaibin/mock.git"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "yanyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jialaibin/mock/issues"
+  },
+  "homepage": "https://github.com/jialaibin/mock#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "colors": "1.0.3",
+    "coveralls": "^2.11.6",
+    "director": "~1.2.8",
+    "extend": "^3.0.0",
+    "fs-extra": "^0.26.2",
+    "http-server": "^0.8.5",
+    "mockjs": "^0.1.10",
+    "request": "^2.67.0",
+    "thunkify": "^2.1.2",
+    "underscore": "^1.8.3",
+    "vows": "^0.8.1"
+  }
+}
